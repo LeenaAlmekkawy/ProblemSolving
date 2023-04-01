@@ -99,7 +99,7 @@ int main()
         int n;
         cin>>n;
 
-        fill(sz,sz+n+5,0);
+        fill(sz,sz+n+5,1);
         iota(par,par+n+5,0);
 
         for(int i=1;i<=n;i++)
