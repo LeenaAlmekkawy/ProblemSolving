@@ -3,6 +3,11 @@
 using namespace std;
 typedef long long ll;
 
+//IF(a+b)%x=0
+//so a%x=(x-b%x)%x
+
+//if(a-b)%x=0
+//so a%x=b%x
 ll add(ll a,ll b,ll m);
 
 ll mul(ll a,ll b,ll m);
